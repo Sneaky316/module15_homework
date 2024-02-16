@@ -1,0 +1,92 @@
+.mainBlock{
+    display: flex;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 400px;
+    margin-top: 200px;
+    padding: 20px;
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5)
+    
+    
+
+    
+    
+}
+.inputContainer{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    
+    justify-content: space-between;
+    
+}
+.btnSend{
+    margin: 0 20px;
+    border: 5px solid aquamarine;
+    border-width: medium;
+    background-color: white ;
+}
+.btnGeo{
+    border: 5px solid aquamarine;
+    border-width: medium;
+    background-color: white ;
+}
+.inputText{
+    border: 5px solid aquamarine;
+    border-width: medium;
+    background-color: white ;
+
+}
+
+
+
+
+.messageContainer{
+    display: flex;
+    flex-wrap:wrap;
+    flex-direction: column;
+    width: 400px;
+    border: 5px solid aquamarine;
+    border-width: medium;
+    margin-top: 20px;
+    height: 300px
+    
+}
+.myMessage{
+    display: none;
+    border: 1px solid aquamarine;
+    border-width: medium;
+    justify-content: flex-end;
+    align-items: flex-end;
+    align-self: end;
+    width: min-content;
+    min-width: 100px;
+    margin: 10px 5px 10px 5px;
+    padding-left: 5px;
+}
+.servMessage{
+    display: none;
+    margin-top: 100px;
+    justify-content: flex-start;
+    border: 5px solid aquamarine;
+    border-width: medium;
+    width: min-content;
+    min-width: 100px;
+    margin: 10px 0 10px 5px ;
+    padding-left: 5px;
+    
+}
+.geoLocation{
+    display: none;
+    border: 1px solid aquamarine;
+    border-width: medium;
+    justify-content: flex-end;
+    align-items: flex-end;
+    align-self: end;
+    width: min-content;
+    min-width: 100px;
+    margin: 10px 5px 10px 5px;
+    padding-left: 5px;
+    
+}
